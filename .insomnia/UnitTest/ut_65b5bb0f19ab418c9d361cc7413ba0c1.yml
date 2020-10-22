@@ -1,0 +1,11 @@
+_id: ut_65b5bb0f19ab418c9d361cc7413ba0c1
+type: UnitTest
+parentId: uts_255642de9d21494caf85f9899ec9845a
+modified: 1603346746555
+created: 1603346733052
+requestId: req_wrk_e6ba072735a34773b2072b7379fce33b6b69dbeb
+name: JSON contains 'message'
+code: |-
+  const response = await insomnia.send();
+  const body = JSON.parse(response.data);
+  expect(body).to.have.property('message');

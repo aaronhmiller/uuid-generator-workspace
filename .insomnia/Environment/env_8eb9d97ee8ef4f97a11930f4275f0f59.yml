@@ -1,0 +1,18 @@
+_id: env_8eb9d97ee8ef4f97a11930f4275f0f59
+type: Environment
+parentId: env_63c85d61384e0abffc70d232654e3642e173509e
+modified: 1603346656874
+created: 1603346622972
+name: Gateway env
+data:
+  scheme: http
+  base_path: ""
+  host: localhost:8000
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1603346622972
